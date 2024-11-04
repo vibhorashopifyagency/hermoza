@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "3b0ce08c-dc90-48c9-8b90-7f90997c369f": {
+      "type": "page-banner",
+      "blocks": {
+        "2b17bfa7-bd99-4a4d-b99e-565150d1f27d": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "image": "shopify:\/\/shop_images\/pant-banner.jpg",
+            "bg_overlay": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "2b17bfa7-bd99-4a4d-b99e-565150d1f27d"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "spacing_top_desktop": 115,
+        "spacing_top_tablet": 85,
+        "spacing_top_mobile": 70,
+        "spacing_bottom_desktop": 115,
+        "spacing_bottom_tablet": 85,
+        "spacing_bottom_mobile": 70,
+        "show_page_title": true,
+        "heading_color": "#ffffff",
+        "heading_title": 40,
+        "heading_title_tb": 35,
+        "heading_title_mb": 32,
+        "heading_title_font_weight": "500",
+        "heading_title_text_transform": "none",
+        "heading__space_bottom": 10,
+        "heading__space_bottom_tb": 8,
+        "heading__space_bottom_mb": 5,
+        "page_title_alignment": "center",
+        "title_letter_spacing": 0,
+        "animations_type_title": "none",
+        "animation_delay_title": "0s",
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "center",
+        "breadcrumb_color": "#ffffff",
+        "breadcrumb_hover": "#41cde2",
+        "breadcrumb_title": 18,
+        "breadcrumb_title_tb": 16,
+        "breadcrumb_title_mb": 15,
+        "breadcrumb_font_weight": "400",
+        "breadcrumb_text_transform": "none",
+        "breadcrumb_spacing": 0,
+        "animations_type_breadcrumb": "none",
+        "animation_delay_breadcrumb": "0s"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "6b8c3b31-6f73-4957-a205-303914159633": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Categories",
+            "link_list": "blog-category"
+          }
+        },
+        "0f104731-0883-4872-8903-8bf595b20ca4": {
+          "type": "recent_post",
+          "settings": {
+            "show_block": true,
+            "heading": "Latest Posts",
+            "number": 3
+          }
+        },
+        "53ff38dd-c24e-4291-8b10-b9d4e0420c53": {
+          "type": "recent_tag",
+          "settings": {
+            "show_block": true,
+            "heading": "Popular Tags",
+            "number": 10
+          }
+        },
+        "f46bdc6e-c181-49d1-99df-83d773a99481": {
+          "type": "social",
+          "settings": {
+            "show_block": true,
+            "heading": "Social"
+          }
+        }
+      },
+      "block_order": [
+        "6b8c3b31-6f73-4957-a205-303914159633",
+        "0f104731-0883-4872-8903-8bf595b20ca4",
+        "53ff38dd-c24e-4291-8b10-b9d4e0420c53",
+        "f46bdc6e-c181-49d1-99df-83d773a99481"
+      ],
+      "settings": {
+        "container": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "blog_bg": "rgba(0,0,0,0)",
+        "blog_bg_gradient": "",
+        "image_ratio": "adapt",
+        "portrait_aspect_ratio": 40,
+        "limit": 3,
+        "item_per_row": "1",
+        "item_per_row_tablet": "1",
+        "item_per_row_mobile": "1",
+        "show_placeholder": false,
+        "show_date": true,
+        "show_author": false,
+        "show_comment": false,
+        "show_summary": true,
+        "show_read_more": true,
+        "blog_text_align": "left",
+        "title_color": "#000000",
+        "text_color": "#777777",
+        "info_color": "#777777",
+        "title_font_size": 22,
+        "title_mobile_font_size": 20,
+        "title_font_weight": "500",
+        "title_text_transform": "none",
+        "info_font_size": 16,
+        "info_font_weight": "400",
+        "info_text_transform": "capitalize",
+        "info_font_style": "normal",
+        "limit_content_des": 15,
+        "show_sidebar": true,
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 22,
+        "sidebar_heading_font_weight": "400",
+        "sidebar_heading_text_transform": "normal",
+        "sidebar_heading_colors": "#000000",
+        "sidebar_heading_space_bottom": 25,
+        "sidebar_heading_space_bottom_tb": 15,
+        "sidebar_heading_space_bottom_mb": 25
+      }
+    }
+  },
+  "order": [
+    "3b0ce08c-dc90-48c9-8b90-7f90997c369f",
+    "main"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg_gradient": "",
+        "container": "container",
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "left",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "heading_color": "#000000",
+        "heading_title": 26,
+        "heading_title_tb": 20,
+        "heading_title_mb": 20,
+        "heading_title_font_weight": "500",
+        "heading_title_text_transform": "uppercase",
+        "heading__space_bottom": 20,
+        "heading__space_bottom_tb": 15,
+        "heading__space_bottom_mb": 15,
+        "title_letter_spacing": 0,
+        "mg_top_desktop": 15,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "show_vendor": true,
+        "image_ratio": "portrait",
+        "portrait_aspect_ratio": 133,
+        "show_cart_countdown": true,
+        "cart_countdown_time": 30,
+        "show_trust_image": true,
+        "continue_button_action": "1",
+        "custom_button_link": "shopify:\/\/collections",
+        "cart_button_color": "#ffffff",
+        "cart_button_hover_color": "#ffffff",
+        "cart_button_bg_color": "#41cde2",
+        "cart_button_bghover_color": "#000000",
+        "cart_button_border_color": "#41cde2",
+        "cart_button_borderhover_color": "#000000",
+        "viewcart_button_color": "#000000",
+        "viewcart_button_hover_color": "#ffffff",
+        "viewcart_button_bg_color": "#ffffff",
+        "viewcart_button_bghover_color": "#41cde2",
+        "viewcart_button_border_color": "#000000",
+        "viewcart_button_borderhover_color": "#41cde2"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

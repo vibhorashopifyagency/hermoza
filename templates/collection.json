@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "4315ae63-17d4-48f9-8add-4834f8cf03de": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "550750c7-12c9-46a8-9a5e-73c575d93dfa": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "image": "shopify:\/\/shop_images\/about-banner.jpg",
+            "bg_overlay": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "550750c7-12c9-46a8-9a5e-73c575d93dfa"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "spacing_top_desktop": 115,
+        "spacing_top_tablet": 85,
+        "spacing_top_mobile": 70,
+        "spacing_bottom_desktop": 115,
+        "spacing_bottom_tablet": 85,
+        "spacing_bottom_mobile": 70,
+        "show_page_title": true,
+        "heading_color": "#ffffff",
+        "heading_title": 40,
+        "heading_title_tb": 35,
+        "heading_title_mb": 32,
+        "heading_title_font_weight": "500",
+        "heading_title_text_transform": "none",
+        "heading__space_bottom": 10,
+        "heading__space_bottom_tb": 8,
+        "heading__space_bottom_mb": 5,
+        "page_title_alignment": "center",
+        "title_letter_spacing": 0,
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "center",
+        "breadcrumb_color": "#ffffff",
+        "breadcrumb_hover": "#41cde2",
+        "breadcrumb_title": 18,
+        "breadcrumb_title_tb": 16,
+        "breadcrumb_title_mb": 15,
+        "breadcrumb_font_weight": "400",
+        "breadcrumb_text_transform": "none",
+        "breadcrumb_spacing": 0
+      }
+    },
+    "6ab7edd6-b479-402b-b562-51e739d456b8": {
+      "type": "main-collection-sub-collection",
+      "settings": {
+        "container": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "show_sub_collection": true,
+        "show_sub_collection_image": true,
+        "product_block_dots": false,
+        "product_block_dots_mb": true,
+        "product_block_arrows": true,
+        "product_block_arrows_mb": false,
+        "product_block_show": "4",
+        "product_block_show_tablet": "3",
+        "product_block_show_mobile": "2",
+        "heading_title": 16,
+        "heading_color": "#000000",
+        "heading_font_weight": "400",
+        "heading_title_text_transform": "uppercase",
+        "heading_align": "center"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "2a71d86b-8d39-449e-a849-b9d1ae56d96d": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Categories",
+            "link_list": "clothes"
+          }
+        },
+        "9f2c6f04-437d-4195-8076-732ec48ce9d4": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "Black, Beige, Blue, Maroon, Green, Red"
+          }
+        },
+        "9320bd75-b5ea-42fa-ae5c-54054c88cbac": {
+          "type": "image",
+          "settings": {
+            "show_block": true,
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/slidebar-banner.jpg",
+            "image_banner_button": "Trends",
+            "link": "#",
+            "button_font_size": 16,
+            "button_border": 1,
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_bghover_color": "#41cde2",
+            "button_border_color": "#000000",
+            "button_borderhover_color": "#41cde2"
+          }
+        },
+        "b3895dea-2793-4afe-89f8-3db74ec425da": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "S,XS,M,L,XL"
+          }
+        }
+      },
+      "block_order": [
+        "2a71d86b-8d39-449e-a849-b9d1ae56d96d",
+        "9f2c6f04-437d-4195-8076-732ec48ce9d4",
+        "9320bd75-b5ea-42fa-ae5c-54054c88cbac",
+        "b3895dea-2793-4afe-89f8-3db74ec425da"
+      ],
+      "settings": {
+        "colors_bg": "#ffffff",
+        "colors_bg_gradient": "",
+        "container": "container",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "show_sidebar": true,
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 22,
+        "sidebar_heading_font_weight": "400",
+        "sidebar_heading_text_transform": "normal",
+        "sidebar_heading_colors": "#000000",
+        "sidebar_heading_space_bottom": 21,
+        "sidebar_heading_space_bottom_tb": 15,
+        "sidebar_heading_space_bottom_mb": 25,
+        "show_filter": true,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_rectangle": "Size",
+        "max_item_per_filter": 10,
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": true,
+        "show_item_per_page": true,
+        "products_per_page": "9",
+        "layout": "3",
+        "layout_tablet": "2",
+        "layout_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "4315ae63-17d4-48f9-8add-4834f8cf03de",
+    "6ab7edd6-b479-402b-b562-51e739d456b8",
+    "product-grid"
+  ]
+}

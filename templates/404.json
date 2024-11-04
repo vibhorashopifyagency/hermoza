@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/404.jpg",
+        "background_image_mb": "shopify:\/\/shop_images\/404-mobile.jpg",
+        "colors_bg": "#eeeeee",
+        "align": "left",
+        "mg_top_desktop": 100,
+        "mg_top_tablet": 80,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 100,
+        "mg_bottom_tablet": 80,
+        "mg_bottom_mobile": 50,
+        "heading": "Page Not Found",
+        "heading_title": 46,
+        "heading_title_tb": 36,
+        "heading_title_mb": 34,
+        "heading_color": "#000000",
+        "heading_color_mobile": "#ffffff",
+        "heading_font_weight": "400",
+        "heading_text_transform": "none",
+        "headding_spacing_bottom": 16,
+        "headding_spacing_bottom_tb": 15,
+        "headding_spacing_bottom_mb": 13,
+        "sub_title": "",
+        "sub_heading_title": 32,
+        "sub_heading_title_tb": 26,
+        "sub_heading_title_mb": 22,
+        "sub_heading_color": "#222222",
+        "sub_heading_color_mobile": "#ffffff",
+        "sub_heading_font_weight": "600",
+        "sub_heading_text_transform": "none",
+        "sub_headding_spacing_bottom": 15,
+        "sub_headding_spacing_bottom_tb": 15,
+        "sub_headding_spacing_bottom_mb": 15,
+        "description_text": "Sorry, we couldn’t find the page you where looking for.",
+        "description_color": "#777777",
+        "description_color_mobile": "#ffffff",
+        "description": 16,
+        "description_tb": 16,
+        "description_mb": 16,
+        "description__space_top": 30,
+        "description__space_top_tb": 20,
+        "description__space_top_mb": 15,
+        "image_banner_button": "Back To Home",
+        "button_border": 1,
+        "button_color": "#ffffff",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#41cde2",
+        "button_bghover_color": "#000000",
+        "button_border_color": "#41cde2",
+        "button_borderhover_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

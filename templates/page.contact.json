@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "5af4ba25-7fd7-4c1a-97f0-273471d2a5f1": {
+      "type": "page-banner",
+      "blocks": {
+        "0fc5dccd-47ff-4e20-bbe5-d558de8d63e7": {
+          "type": "image",
+          "settings": {
+            "show_image_parallax": false,
+            "show_bg_overlay": false,
+            "type": "custom",
+            "image": "shopify:\/\/shop_images\/contact-banner.jpg",
+            "bg_overlay": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "0fc5dccd-47ff-4e20-bbe5-d558de8d63e7"
+      ],
+      "settings": {
+        "container": "fullwidth",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "spacing_top_desktop": 115,
+        "spacing_top_tablet": 85,
+        "spacing_top_mobile": 70,
+        "spacing_bottom_desktop": 115,
+        "spacing_bottom_tablet": 85,
+        "spacing_bottom_mobile": 70,
+        "show_page_title": true,
+        "heading_color": "#ffffff",
+        "heading_title": 40,
+        "heading_title_tb": 35,
+        "heading_title_mb": 32,
+        "heading_title_font_weight": "500",
+        "heading_title_text_transform": "none",
+        "heading__space_bottom": 10,
+        "heading__space_bottom_tb": 8,
+        "heading__space_bottom_mb": 5,
+        "page_title_alignment": "center",
+        "title_letter_spacing": 0,
+        "animations_type_title": "none",
+        "animation_delay_title": "0s",
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "center",
+        "breadcrumb_color": "#ffffff",
+        "breadcrumb_hover": "#41cde2",
+        "breadcrumb_title": 18,
+        "breadcrumb_title_tb": 16,
+        "breadcrumb_title_mb": 15,
+        "breadcrumb_font_weight": "400",
+        "breadcrumb_text_transform": "none",
+        "breadcrumb_spacing": 0,
+        "animations_type_breadcrumb": "none",
+        "animation_delay_breadcrumb": "0s"
+      }
+    },
+    "c6f001ee-f792-409a-84fa-8ddac7160693": {
+      "type": "main-contact-us",
+      "settings": {
+        "container": "container",
+        "blog_bg": "rgba(0,0,0,0)",
+        "blog_bg_gradient": "",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "block_title_title": "Get In Touch",
+        "block_title_align": "left",
+        "block_title_align_mobile": "left",
+        "mg_bottom_title": 35,
+        "mg_bottom_title_tb": 30,
+        "mg_bottom_title_mb": 20,
+        "show_contact_info_1": true,
+        "contact_info_title_1": "Address",
+        "contact_info_text_1": "19 LE Gounlburn St, America 1108NKB.",
+        "show_contact_info_2": true,
+        "contact_info_title_2": "Phone",
+        "contact_info_text_2": "<a href=\"1234567890\">+123 456 7890<\/a>",
+        "show_contact_info_3": true,
+        "contact_info_title_3": "Email",
+        "contact_info_text_3": "<a href=\"mailto:Info@gmail.com\">Info@gmail.com<\/a>",
+        "show_contact_info_4": false,
+        "contact_info_title_4": "",
+        "contact_info_text_4": "",
+        "title_size": 22,
+        "title_size_tb": 22,
+        "title_size_mb": 20,
+        "heading_font_weight": "400",
+        "heading_text_transform": "none",
+        "show_social": true
+      }
+    },
+    "ee78a9d4-29da-4b8a-88dc-2f462effc4b7": {
+      "type": "google-map",
+      "settings": {
+        "container": "container",
+        "blog_bg": "#ffffff",
+        "blog_bg_gradient": "",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 80,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50,
+        "block_content": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m12!1m3!1d41245.09906512629!2d-104.9907498898909!3d39.79442131737134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1681898397236!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>"
+      }
+    }
+  },
+  "order": [
+    "5af4ba25-7fd7-4c1a-97f0-273471d2a5f1",
+    "c6f001ee-f792-409a-84fa-8ddac7160693",
+    "ee78a9d4-29da-4b8a-88dc-2f462effc4b7"
+  ]
+}
