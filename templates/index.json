@@ -241,7 +241,7 @@
     "6c40ecac-ef29-4675-b7f6-fb216546fc1d": {
       "type": "product-block",
       "settings": {
-        "background_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
         "background_gradient": "",
         "clip_path_enabel": false,
         "clip_background_color": "#ffffff",
@@ -509,7 +509,7 @@
         "text_7FXU8A": {
           "type": "text",
           "settings": {
-            "animations_type_content_block": "fadeInUp",
+            "animations_type_content_block": "none",
             "animation_delay_content_block": "1s",
             "content_grid": "6",
             "content_grid_tablate": "6",
@@ -578,7 +578,7 @@
             "icon_title__space_bottom_mb": 25,
             "animations_type_icon_content": "none",
             "animation_delay_icon_content": "0s",
-            "button_style": "1",
+            "button_style": "2",
             "image_banner_button": "Shop Now",
             "image_banner_link": "shopify:\/\/collections\/all",
             "button_font_weight": "400",
@@ -609,7 +609,8 @@
         "container": "container",
         "background_color": "#ffffff",
         "background_gradient": "",
-        "image_behavior": "zoom-in",
+        "background_image": "shopify:\/\/shop_images\/COLLECTIONS.png",
+        "image_behavior": "none",
         "align": "center",
         "mg_top_desktop": 40,
         "mg_top_tablet": 40,
@@ -716,7 +717,7 @@
         "sub_title_line_height_tb": 20,
         "font_size_sub_title_mb": 16,
         "sub_title_line_height_mb": 20,
-        "sub_heading_font": "font_1",
+        "sub_heading_font": "font_2",
         "sub_title_font_weight": "400",
         "product_title_transform": "uppercase",
         "font_size_sub_letter_spacing": 0,
