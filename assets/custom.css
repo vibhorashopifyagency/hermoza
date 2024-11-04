@@ -4,6 +4,20 @@
     justify-content: center;
 }
 
+.view-all-button { text-align: center; }
+
+.view_all {
+    display: block;
+    max-width: 100%;
+    color: #000;
+    margin-top: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
 @media (min-width: 749px) {
     .section-title { position: relative; }
     h3.title.none.delay-1:before {
@@ -36,14 +50,5 @@
         text-align: center;
         font-size: 2rem !important;
         color: #00000096 !important;
-    }
-    .view_all {
-        display: block;
-        max-width: 100%;
-        /* width: 100%; */
-        color: #000000;
-        margin-top: 1.8rem;
-        font-weight: 800;
-        /* font-size: 18px; */
     }
 }

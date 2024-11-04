@@ -419,10 +419,10 @@ body.layout_rtl .toolbar-main svg{
     position: absolute;
     z-index: 1;
 }
-.card__badge.badge-left {
+/* .card__badge.badge-left {
   top: var(--postion-top-badge);
   left: var(--postion-left-right-badge);
-}
+} */
 .card__badge.badge-right {
   top: var(--postion-top-badge);
   right: var(--postion-left-right-badge);
@@ -1690,6 +1690,13 @@ toolbar .toolbar-item.toolbar-sort .label-tab .icon-dropdown {
   }
 }
 
+@media (min-width: 768px) {
+    .card__badge.badge-left {
+        top: var(--postion-top-badge);
+        left: var(--postion-left-right-badge);
+    }
+}
+
 @media (max-width: 1024px) {
   .productGrid.column-tb-1 .product {
       width: 100%;
@@ -2067,8 +2074,11 @@ toolbar .toolbar-item.toolbar-sort .label-tab .icon-dropdown {
     margin-top: 2px;
   }
   .card__badge.badge-left {
-    top: 5px;
-    left: 5px;
+    max-width: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
   }
   .card-action .variants-popup {
     position: fixed;
