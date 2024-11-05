@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     transition: opacity .5s,transform 2s cubic-bezier(0,0,.44,1.18),-webkit-transform 2s cubic-bezier(0,0,.44,1.18);
 }
 .card-product__group.group-right {
@@ -374,7 +374,7 @@ body.layout_rtl .toolbar-main svg{
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: all .8s ease;
 }
 .card-price {

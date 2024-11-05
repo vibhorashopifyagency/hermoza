@@ -292,12 +292,14 @@
   }
   .trending-product.trending-block-{{section.id}} .product-item .card {
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       margin: 0px -10px;
   }
   .trending-product.trending-block-{{section.id}} .product-item .card .card-product {
       width: 35%;
+      /* width: 100%; */
   }
   .trending-product.trending-block-{{section.id}} .product-item .card .card-information {
       width: 65%;
@@ -371,6 +373,13 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 500;
+  }
+  .trending-product.trending-block-{{section.id}} .card__badge .badge.sale-badge span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    line-height: 0.80rem;
   }
   .trending-product.trending-block-{{section.id}} .card-vendor {
       padding-bottom: 2px;
@@ -590,7 +599,7 @@
         padding: 6px 4px;
     }
     .trending-product.trending-block-{{section.id}} .product-countdown-block .clock-item .num {
-       margin: auto;     
+       /* margin: auto; */
     }
     .trending-product.trending-block-{{section.id}} .product-countdown-block .clock-item:before, .trending-product.trending-block-{{section.id}} .product-countdown-block .clock-item:after {
         right: -12px;
@@ -602,10 +611,11 @@
     .trending-product.trending-block-{{section.id}} .product-countdown-block {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .trending-product.trending-block-{{section.id}} .product-countdown-block .clock-item {
-        margin: 0px 20px;
+        /* margin: 0px 20px; */
+        margin: 0px;
     }
     .trending-product.trending-block-{{section.id}} .products-grid.column-mb-1 .product:nth-child(1n + 1),
     .trending-product.trending-block-{{section.id}} .products-grid.column-mb-2 .product:nth-child(2n + 2),
@@ -638,6 +648,10 @@
     body.layout_rtl .trending-product.trending-block-{{section.id}} .products-grid.column-mb-5 .product:nth-child(5n + 5) {
         border-right: unset;
         border-left: unset;
+    }
+    .trending-product.trending-block-{{section.id}} .product-item .card .card-product {
+      /* width: 35%; */
+      width: 100%;
     }
   }
 </style>

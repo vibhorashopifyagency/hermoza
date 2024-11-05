@@ -566,6 +566,45 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "c287dddf-65de-4387-959b-0df6b0baf522": {
+            "type": "link_list",
+            "settings": {
+              "custom_width": "15%",
+              "custom_width_table": "50%",
+              "custom_width_mobile": "100%",
+              "mg_bottom_desktop": 0,
+              "mg_bottom_tablet": 30,
+              "mg_bottom_mobile": 30,
+              "heading": "About Us",
+              "menu": ""
+            }
+          },
+          "1c458c88-d7ea-4053-86cc-a534b8be24b1": {
+            "type": "link_list",
+            "settings": {
+              "custom_width": "15%",
+              "custom_width_table": "50%",
+              "custom_width_mobile": "100%",
+              "mg_bottom_desktop": 0,
+              "mg_bottom_tablet": 30,
+              "mg_bottom_mobile": 30,
+              "heading": "Shop Categories",
+              "menu": "shop-categories"
+            }
+          },
+          "06bf791f-2992-42b1-a363-ad108d5ad8a4": {
+            "type": "link_list",
+            "settings": {
+              "custom_width": "15%",
+              "custom_width_table": "50%",
+              "custom_width_mobile": "100%",
+              "mg_bottom_desktop": 0,
+              "mg_bottom_tablet": 0,
+              "mg_bottom_mobile": 30,
+              "heading": "Information",
+              "menu": "information"
+            }
+          },
           "footer-0": {
             "type": "text",
             "settings": {
@@ -616,52 +655,13 @@
               "social_border_color_hover": "rgba(0,0,0,0)",
               "social_background_color_hover": "rgba(0,0,0,0)"
             }
-          },
-          "c287dddf-65de-4387-959b-0df6b0baf522": {
-            "type": "link_list",
-            "settings": {
-              "custom_width": "15%",
-              "custom_width_table": "50%",
-              "custom_width_mobile": "100%",
-              "mg_bottom_desktop": 0,
-              "mg_bottom_tablet": 30,
-              "mg_bottom_mobile": 30,
-              "heading": "About Us",
-              "menu": ""
-            }
-          },
-          "1c458c88-d7ea-4053-86cc-a534b8be24b1": {
-            "type": "link_list",
-            "settings": {
-              "custom_width": "15%",
-              "custom_width_table": "50%",
-              "custom_width_mobile": "100%",
-              "mg_bottom_desktop": 0,
-              "mg_bottom_tablet": 30,
-              "mg_bottom_mobile": 30,
-              "heading": "Shop Categories",
-              "menu": "shop-categories"
-            }
-          },
-          "06bf791f-2992-42b1-a363-ad108d5ad8a4": {
-            "type": "link_list",
-            "settings": {
-              "custom_width": "15%",
-              "custom_width_table": "50%",
-              "custom_width_mobile": "100%",
-              "mg_bottom_desktop": 0,
-              "mg_bottom_tablet": 0,
-              "mg_bottom_mobile": 30,
-              "heading": "Information",
-              "menu": "information"
-            }
           }
         },
         "block_order": [
-          "footer-0",
           "c287dddf-65de-4387-959b-0df6b0baf522",
           "1c458c88-d7ea-4053-86cc-a534b8be24b1",
-          "06bf791f-2992-42b1-a363-ad108d5ad8a4"
+          "06bf791f-2992-42b1-a363-ad108d5ad8a4",
+          "footer-0"
         ],
         "settings": {
           "background_color": "#f5ebe0",
@@ -1076,9 +1076,9 @@
           "transparent_color": "#000000",
           "transparent_color_hover": "#e61b1b",
           "sticky_header_type": "always",
-          "bg_color_menu_dropdown": "#fffafb",
-          "text_color_menu_dropdown": "#000000",
-          "text_color_hover_menu_dropdown": "#fdf9f5",
+          "bg_color_menu_dropdown": "#ffffff",
+          "text_color_menu_dropdown": "#4d3912",
+          "text_color_hover_menu_dropdown": "#d5bdaf",
           "font_size_menu_dropdown": 16,
           "font_weight_menu_dropdown": "400",
           "mega_menu_size": 18,
@@ -1424,11 +1424,6 @@
         "disabled": false,
         "settings": {}
       },
-      "1232542678405107163": {
-        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -1442,6 +1437,11 @@
           "button_vertical_position": "higher",
           "greeting_message": ""
         }
+      },
+      "1232542678405107163": {
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": true,
+        "settings": {}
       }
     }
   },
