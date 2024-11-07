@@ -2081,7 +2081,8 @@ toolbar .toolbar-item.toolbar-sort .label-tab .icon-dropdown {
     margin-top: 2px;
   }
   .card__badge.badge-left {
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 10%;
     width: 100%;
     bottom: 0;
     left: 0;

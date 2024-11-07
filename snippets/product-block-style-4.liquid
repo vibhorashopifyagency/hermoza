@@ -289,6 +289,7 @@
       border: unset !important;
       border-radius: unset !important;
       background-color: unset;
+      z-index: 1;
   }
   .trending-product.trending-block-{{section.id}} .product-item .card {
       display: flex;
@@ -350,8 +351,10 @@
   .trending-product.trending-block-{{section.id}} .card__badge {
     position: absolute;
     top: 8px;
-    right: 2px;
-    left: unset;
+    /* right: 2px; */
+    /* left: unset; */
+    left: 0;
+    z-index: 2;
   }
   .trending-product.trending-block-{{section.id}} .card__badge .badge.sale-badge {
     {% if section.settings.sale_badge_bg != blank %}
