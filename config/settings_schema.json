@@ -3198,6 +3198,18 @@
         "default": "#3c3c3c"
       },
       {
+        "type": "color",
+        "id": "product_action_colors_active_border",
+        "label": "Wishlist icon box border color",
+        "default": "#e8e8e8"
+      },
+      {
+        "type": "color",
+        "id": "product_action_colors_active_wishlist",
+        "label": "Wishlist icon color",
+        "default": "#ec4a4a"
+      },
+      {
         "id": "product_action_borderhover_color",
         "type": "color",
         "default": "#a66953",

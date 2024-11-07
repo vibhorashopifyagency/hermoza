@@ -529,10 +529,17 @@ body.layout_rtl .toolbar-main svg{
 }
 .card-wishlist .wishlist-added {
     background-color: var(--product-action-colors-bg-active);
-    border-color: var(--product-action-colors-bg-active);
+    /* border-color: var(--product-action-colors-bg-active); */
+    border-color: var(--product-action-colors-bg-active-border);
+    /* border-color: #e8e8e8; */
 }
 .card-wishlist .wishlist-added svg path {
-    stroke: var(--product-action-color-active);
+    /* stroke: var(--product-action-color-active); */
+    stroke: none;
+    fill: var(--product-action-colors-active-wishlist) !important;
+}
+.card-wishlist .wishlist-added:hover svg path {
+    stroke: none;
 }
 .card-wishlist button:hover svg path {
     stroke: var(--product-action-color-active);

@@ -16,7 +16,7 @@
             "heading__space_top_mob_title": 200,
             "heading__space_bottom_mob_title": 0,
             "image_slide": "shopify:\/\/shop_images\/1.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/1_ad0a19fb-5ea7-4c98-8746-da8bd18a3ed1.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/SHOP_NOW_1_3d893ffe-084c-4859-9280-c3c49dc11e84.png",
             "sub_title": "",
             "font_size_sub_title": 22,
             "font_size_sub_title_tb": 16,
@@ -108,7 +108,7 @@
             "heading__space_top_mob_title": 10,
             "heading__space_bottom_mob_title": 10,
             "image_slide": "shopify:\/\/shop_images\/2_fba774df-2307-44b7-b1ce-89880bbafa32.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/2_838a2694-1461-4214-854a-cd20b23eef8c.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/SHOP_NOW_2_a1399eae-8274-42a7-8934-98140b7a3d87.png",
             "sub_title": "",
             "font_size_sub_title": 31,
             "font_size_sub_title_tb": 18,
@@ -205,7 +205,7 @@
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0,
         "image_behavior": "zoom-in",
-        "autoplay": false,
+        "autoplay": true,
         "slideshow_speed": "5000",
         "slideshow_transition": "false",
         "product_block_dots": true,
@@ -332,6 +332,48 @@
         "sale_badge_bg": "#000000"
       }
     },
+    "marquee_YjFhmq": {
+      "type": "marquee",
+      "blocks": {
+        "marquee_VbCjbT": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Welcome to our store<\/p>",
+            "color": "#f7f7f7"
+          }
+        },
+        "marquee_VwDWAX": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Welcome to our store<\/p>",
+            "color": "#ffffff"
+          }
+        },
+        "marquee_QGpzNR": {
+          "type": "marquee",
+          "settings": {
+            "text": "<p>Welcome to our store<\/p>",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "marquee_VbCjbT",
+        "marquee_VwDWAX",
+        "marquee_QGpzNR"
+      ],
+      "settings": {
+        "background": "#2e291d",
+        "text_size": 22,
+        "text_size_tb": 18,
+        "text_size_mb": 16,
+        "gap_blocks": 20,
+        "icon": "thunder",
+        "icon_color": "#d5bdaf",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "1371841a-5456-4561-b341-85dd2057fc6d": {
       "type": "image-banne",
       "settings": {
@@ -359,13 +401,13 @@
         "spacing_bottom_desktop": 250,
         "spacing_bottom_tablet": 150,
         "spacing_bottom_mobile": 100,
-        "image": "shopify:\/\/shop_images\/Piece_of.png",
+        "image": "shopify:\/\/shop_images\/PAWSOME.png",
         "image_behavior": "none",
         "enable_parallax_image": false,
         "image_banner_style": "2",
         "adaptive_height_video": "56",
         "adaptive_height_video_tablet": "50",
-        "sub_title": "SALE UP TO 30% OFF",
+        "sub_title": "",
         "border_bottom": false,
         "border_width_2": 0,
         "border_color_2": "#222222",
@@ -382,7 +424,7 @@
         "sub_title__space_top_mb": 5,
         "animations_type_subtitle": "none",
         "animation_delay_subtitle": "0s",
-        "heading": "New Arrivals",
+        "heading": "",
         "heading_color": "#ffffff",
         "heading_title": 70,
         "heading_title_line_height": 50,
@@ -458,8 +500,8 @@
         "animations_type_description": "none",
         "animation_delay_description": "0s",
         "button_style": "2",
-        "image_banner_button": "Shop Now",
-        "image_banner_link": "shopify:\/\/collections",
+        "image_banner_button": "",
+        "image_banner_link": "shopify:\/\/collections\/dog-lovers",
         "font_size_button": 14,
         "button_letter_spacing": 1,
         "button_border": 2,
@@ -476,48 +518,6 @@
         "button_borderhover_color_bottom": "",
         "animations_type_button": "none",
         "animation_delay_button": "0s"
-      }
-    },
-    "marquee_YjFhmq": {
-      "type": "marquee",
-      "blocks": {
-        "marquee_VwDWAX": {
-          "type": "marquee",
-          "settings": {
-            "text": "<p>Welcome to our store<\/p>",
-            "color": "#ffffff"
-          }
-        },
-        "marquee_QGpzNR": {
-          "type": "marquee",
-          "settings": {
-            "text": "<p>Welcome to our store<\/p>",
-            "color": "#ffffff"
-          }
-        },
-        "marquee_EPTkxB": {
-          "type": "marquee",
-          "settings": {
-            "text": "<p>Welcome to our store<\/p>",
-            "color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "marquee_VwDWAX",
-        "marquee_QGpzNR",
-        "marquee_EPTkxB"
-      ],
-      "settings": {
-        "background": "#8F6E5B",
-        "text_size": 22,
-        "text_size_tb": 18,
-        "text_size_mb": 16,
-        "gap_blocks": 20,
-        "icon": "thunder",
-        "icon_color": "#d5bdaf",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "modern_image_with_content_wnmQLb": {
@@ -781,9 +781,9 @@
         "product_button_color": "#000000",
         "product_button_hover_color": "#ffffff",
         "product_button_bg_color": "#ffffff",
-        "product_button_bghover_color": "#41cde2",
+        "product_button_bghover_color": "#ffffff",
         "product_button_border_color": "#000000",
-        "product_button_borderhover_color": "#41cde2",
+        "product_button_borderhover_color": "#ffffff",
         "product_animations_type_button": "none",
         "product_animation_delay_button": "0s",
         "vector_top": "",
@@ -1855,8 +1855,8 @@
   "order": [
     "2095b0c6-b1fb-4f20-8141-e3bca23401fc",
     "product_block_4_LFEbFP",
-    "1371841a-5456-4561-b341-85dd2057fc6d",
     "marquee_YjFhmq",
+    "1371841a-5456-4561-b341-85dd2057fc6d",
     "modern_image_with_content_wnmQLb",
     "6c40ecac-ef29-4675-b7f6-fb216546fc1d",
     "product_block_Y9pUUC",
