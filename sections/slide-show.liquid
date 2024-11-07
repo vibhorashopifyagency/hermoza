@@ -20,7 +20,7 @@
   {% render 'slide-show-style' %}
   <div class="slide-show {% if section.settings.slick_dots_style == '1'%}dot-style-1{% else %}dot-style-2{% endif %}" id="slideshow-wrapper-{{section.id}}"">
     <div class="{% if container == 'fullwidth'%}container-full{% else %}container{% endif %}">
-      <div class="slideshow-slider" data-auto-video="{{ section.settings.auto_playvideo }}">
+      <div class="slideshow-slider xxx" data-auto-video="{{ section.settings.auto_playvideo }}">
         {% for block in section.blocks %}
           {% if block.type == 'image' or block.type == 'video' %}
             <div class="slide-show-slde block-{{block.id}}" >

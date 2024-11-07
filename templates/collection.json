@@ -9,7 +9,7 @@
             "show_image_parallax": false,
             "show_bg_overlay": false,
             "type": "custom",
-            "image": "shopify:\/\/shop_images\/about-banner.jpg",
+            "image_behavior": "none",
             "bg_overlay": "#000000",
             "overlay_opacity": 50
           }
@@ -90,7 +90,7 @@
           "settings": {
             "show_block": true,
             "heading": "Categories",
-            "link_list": "clothes"
+            "link_list": "shop-categories"
           }
         },
         "9f2c6f04-437d-4195-8076-732ec48ce9d4": {
@@ -102,10 +102,10 @@
         },
         "9320bd75-b5ea-42fa-ae5c-54054c88cbac": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "show_block": true,
             "heading": "",
-            "image": "shopify:\/\/shop_images\/slidebar-banner.jpg",
             "image_banner_button": "Trends",
             "link": "#",
             "button_font_size": 16,
@@ -120,6 +120,7 @@
         },
         "b3895dea-2793-4afe-89f8-3db74ec425da": {
           "type": "filter",
+          "disabled": true,
           "settings": {
             "heading": "Size",
             "list_tags": "S,XS,M,L,XL"
@@ -135,7 +136,7 @@
       "settings": {
         "colors_bg": "#ffffff",
         "colors_bg_gradient": "",
-        "container": "container",
+        "container": "fullwidth",
         "mg_top_desktop": 0,
         "mg_top_tablet": 0,
         "mg_top_mobile": 0,
@@ -161,9 +162,9 @@
         "show_toolbar": true,
         "show_sorting": true,
         "show_item_per_page": true,
-        "products_per_page": "9",
-        "layout": "3",
-        "layout_tablet": "2",
+        "products_per_page": "32",
+        "layout": "4",
+        "layout_tablet": "3",
         "layout_mobile": "2"
       }
     }

@@ -531,7 +531,12 @@
 }
 .productView-wishlist a.wishlist-added {
     background-color: var(--product-action-colors-bg-active);
-    border-color: var(--product-action-colors-bg-active);
+    /* border-color: var(--product-action-colors-bg-active); */
+    border-color: #c7c7c7;
+}
+.productView-wishlist a.wishlist-added svg path {
+    stroke: none;
+    fill: var(--product-action-colors-active-wishlist) !important;
 }
 .productView-wishlist a.wishlist-added .icon {
     fill: var(--product-action-color-active);
