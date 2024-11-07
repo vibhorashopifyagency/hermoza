@@ -280,6 +280,11 @@ body.layout_rtl .productView-stickyCart.style-1 .sticky-actions .quantity__group
     fill: var(--product-wishlist-color-added);
 }
 
+.sticky-wishlist a.wishlist-added svg path {
+    fill: #ec4a4a;
+    stroke: none;
+}
+
 .sticky-product-expand{
     display: block;
     background-color: var(--color-global);
