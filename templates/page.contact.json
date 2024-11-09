@@ -9,7 +9,7 @@
             "show_image_parallax": false,
             "show_bg_overlay": false,
             "type": "custom",
-            "image": "shopify:\/\/shop_images\/contact-banner.jpg",
+            "image_behavior": "none",
             "bg_overlay": "#000000",
             "overlay_opacity": 50
           }
@@ -80,13 +80,13 @@
         "mg_bottom_title_mb": 20,
         "show_contact_info_1": true,
         "contact_info_title_1": "Address",
-        "contact_info_text_1": "19 LE Gounlburn St, America 1108NKB.",
+        "contact_info_text_1": "Debi Chouudhurani Sarani\nEast Milanpally, Siliguri, West Bengal, INDIA",
         "show_contact_info_2": true,
         "contact_info_title_2": "Phone",
-        "contact_info_text_2": "<a href=\"1234567890\">+123 456 7890<\/a>",
+        "contact_info_text_2": "<a href=\"9676737016\">+91 96767 37016<\/a>",
         "show_contact_info_3": true,
         "contact_info_title_3": "Email",
-        "contact_info_text_3": "<a href=\"mailto:Info@gmail.com\">Info@gmail.com<\/a>",
+        "contact_info_text_3": "<a href=\"mailto:hermoza.india@gmail.com\">hermoza.india@gmail.com<\/a>",
         "show_contact_info_4": false,
         "contact_info_title_4": "",
         "contact_info_text_4": "",
@@ -110,7 +110,8 @@
         "mg_bottom_desktop": 80,
         "mg_bottom_tablet": 50,
         "mg_bottom_mobile": 50,
-        "block_content": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m12!1m3!1d41245.09906512629!2d-104.9907498898909!3d39.79442131737134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1681898397236!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>"
+        "block_content": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d4209.617373679136!2d88.42065487595109!3d26.697010369326136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e44160fc1db0a3%3A0xaa8e73539e14f9b8!2sDevi%20Choudhurani%20Sarani%2C%20Ward%2026%2C%20Siliguri%2C%20West%20Bengal%20734004!5e1!3m2!1sen!2sin!4v1731169870170!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "image_behavior": "none"
       }
     }
   },

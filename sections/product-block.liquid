@@ -173,7 +173,7 @@
       </div>
     {%- endif -%}
     
-    <div class="container">
+    <div class="container {% if section.settings.enable_full_width %}full-width{% endif %}">
   
       {%- if section.settings.vector_image_2 != blank -%}
         <div class="vector_2 vector_2_{{section.id}}">
@@ -494,6 +494,12 @@
       {
           "type": "header",
           "content": "t:sections.layout.content"
+      },
+      {
+          "type": "checkbox",
+          "id": "enable_full_width", 
+          "label": "Enable Full Width",
+          "default": false
       },
       {
           "type" : "color",

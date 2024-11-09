@@ -20,6 +20,8 @@
 
 .collection-grids-inner h3 { font-size: 2rem; }
 
+.full-width { max-width: 100%; }
+
 @media (min-width: 749px) {
     .section-title { position: relative; }
     h3.title.none.delay-1:before {
