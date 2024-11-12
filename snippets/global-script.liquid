@@ -1,9 +1,18 @@
-{{ 'animation.js' | asset_url | script_tag }}
+{% comment %} {{ 'animation.js' | asset_url | script_tag }}
 {{ 'vendor.js' | asset_url | script_tag }}
 {{ 'global.js' | asset_url | script_tag }}
 {{ 'lazyload.min.js' | asset_url | script_tag }}
-{{ 'animation-2.js' | asset_url | script_tag }}
+{{ 'animation-2.js' | asset_url | script_tag }} {% endcomment %}
 
+
+<script src="{{ 'animation.js' | asset_url }}" defer="defer"></script>
+{{ 'vendor.js' | asset_url | script_tag }}
+{% comment %} <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+{{ 'global.js' | asset_url | script_tag }}
+{% comment %} <script src="{{ 'global.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+{{ 'lazyload.min.js' | asset_url | script_tag }}
+{% comment %} <script src="{{ 'lazyload.min.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+<script src="{{ 'animation-2.js' | asset_url }}" defer="defer"></script>
 
 
 {%- if settings.show_quick_search -%}

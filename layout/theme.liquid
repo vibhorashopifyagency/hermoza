@@ -51,7 +51,7 @@
         {{ 'custom.css' |  asset_url |  stylesheet_tag }}
 
         <!-- Hotjar Tracking Code for https://hermoza.in/ -->
-        <script>
+        {% comment %} <script>
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:5201757,hjsv:6};
@@ -60,7 +60,7 @@
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+        </script> {% endcomment %}
 
         {%- liquid
             if settings.layout_header == 'custom_width'
