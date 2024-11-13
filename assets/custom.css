@@ -21,6 +21,9 @@
 .collection-grids-inner h3 { font-size: 2rem; }
 
 .full-width { max-width: 100%; }
+.language-mobile.wislist {
+    font-family: var(--font-nav-family);
+}
 
 @media (min-width: 749px) {
     .section-title { position: relative; }

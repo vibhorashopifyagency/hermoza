@@ -44,11 +44,12 @@
 
         {% render 'variable' %}
         {% render 'global-style' %}
-        {% render 'global-script' %}
 
         <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 
         {{ 'custom.css' |  asset_url |  stylesheet_tag }}
+        {{ 'vendor.js' | asset_url | script_tag }}
+        {{ 'lazyload.min.js' | asset_url | script_tag }}
 
         <!-- Hotjar Tracking Code for https://hermoza.in/ -->
         {% comment %} <script>
@@ -106,7 +107,6 @@
               </div>
               {% section 'scoder-toolbar-mobile' %}
               
-              {% render 'global-script-2' %}
             </div>
           </div>
         </div>
@@ -127,6 +127,10 @@
             </div>
             {% endif %}
         </div>
+
+        {% render 'global-script' %}
+        
+        {% render 'global-script-2' %}
         
         {% render 'scoder-sidebar' %}
     </body>
