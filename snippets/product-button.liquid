@@ -165,7 +165,7 @@
                 </div>
                 {%- if show_dynamic_checkout -%}
                     <div class="productView-groupBottom">
-                        {%- if settings.show_global_checkbox -%}
+                        {% comment %} {%- if settings.show_global_checkbox -%}
                             <div class="productView-groupItem">
                                 {%- if settings.show_global_checkbox -%}
                                     <div class="productView-checkbox global-checkbox">
@@ -181,9 +181,9 @@
                                     </div>
                                 {%- endif -%}
                             </div>
-                        {%- endif -%}
+                        {%- endif -%} {% endcomment %}
                         <div class="productView-groupItem">
-                            <div class="productView-payment" {% if settings.show_global_checkbox %} disabled="disabled"{% endif %} id="product-checkout-{{ product.id }}"
+                            <div class="productView-payment" id="product-checkout-{{ product.id }}"
                                 style="--bin-color: {{ bin_color }};
                                        --bin-bg-color: {% if bin_bg_color_gradient != blank %}{{ bin_bg_color_gradient }}{% else %}{{ bin_bg_color }}{% endif %};
                                        --bin-border-color: {{ bin_border_color }};

@@ -67,7 +67,7 @@
               {% if block.settings.image != blank %}
                 <div class="collection-grid-img {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }} animate-hidden{% endif %}">
                   <div class="animate-ambient-image">
-                    <a {% if block.settings.link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.link }}"{% endif %} class="image-zoom">
+                    <a {% if block.settings.title_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.title_link }}"{% endif %} class="image-zoom">
                         {%- assign preview_img = block.settings.image -%}
                         <img {% render 'lazyload',preview_img: preview_img %} />
                         {% if settings.enable_lazyload %}<span class="data-lazy-loading"></span>{% endif %}

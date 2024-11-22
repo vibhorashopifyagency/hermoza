@@ -205,7 +205,7 @@
             {% endif %}
         </ul>
         <div class="previewCartAction text-left">
-        	{%- if settings.show_global_checkbox -%}
+        	{% comment %} {%- if settings.show_global_checkbox -%}
                 <div class="previewCartCheckbox global-checkbox">
                     <input class="global-checkbox--input" type="checkbox" name="conditions" id="sidebar_cart_conditions" data-target="#cart-sidebar-checkout">
                     <label class="global-checkbox--label form-label--checkbox" for="sidebar_cart_conditions">
@@ -217,9 +217,9 @@
                         </button>
                     {%- endif -%}
                 </div>
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
             <div class="previewCartGroup">
-            	<button class="button button-1 button-checkout" onclick="window.location='{{ routes.cart_url | split: '/cart' | first }}/checkout'"{% if settings.show_global_checkbox %} disabled="disabled"{% endif %} id="cart-sidebar-checkout">
+            	<button class="button button-1 button-checkout" onclick="window.location='{{ routes.cart_url | split: '/cart' | first }}/checkout'" id="cart-sidebar-checkout">
                     {{ 'sections.cart.checkout' | t }}
                 </button>
                 <a class="button button-2 button-view-cart" href="{{ routes.cart_url }}">

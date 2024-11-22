@@ -554,8 +554,9 @@ body.cart-sidebar-show .scoder-cart-sidebar{
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    height: calc(100% - var(--scoderSidebarHeight));
+    overflow: scroll;
+    /* height: calc(100% - var(--scoderSidebarHeight)); */
+    height: 100%;
 }
 
 .product-option {
