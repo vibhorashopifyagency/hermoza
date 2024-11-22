@@ -1045,6 +1045,31 @@
       },
       "header-03": {
         "type": "header-03",
+        "blocks": {
+          "megamenu_style_1_994PJh": {
+            "type": "megamenu_style_1",
+            "settings": {
+              "layout_block": "full",
+              "header_custom_width_size": 1200,
+              "item": "Men",
+              "column": 2,
+              "right_part_show": false,
+              "right_part_width": "50%",
+              "show_banner_1": false,
+              "banner_title": "New Arrival",
+              "banner_title_color": "#ffffff",
+              "banner_title_title_size": 26,
+              "banner_url_1": "",
+              "show_banner_2": false,
+              "banner_url_2": "",
+              "show_banner_3": false,
+              "banner_url_3": ""
+            }
+          }
+        },
+        "block_order": [
+          "megamenu_style_1_994PJh"
+        ],
         "settings": {
           "bg_color_header": "#f1f4e0",
           "border_bottom": false,
@@ -1069,7 +1094,7 @@
           "menu_color_mobile": "#000000",
           "menu_hover_color_mobile": "#666666",
           "menu_position": "left",
-          "show_megamenu": false,
+          "show_megamenu": true,
           "show_search": true,
           "show_cart": true,
           "show_wishlist": true,
@@ -1106,7 +1131,7 @@
           "sale_label_color": "#ffffff",
           "sale_label_bg": "#d12442",
           "sale_label_bg_gradient": "",
-          "hot_label_1": "",
+          "hot_label_1": "Men",
           "hot_label_2": "",
           "hot_label_3": "Multiple Headers, Multiple Footers, GDPR, Color Comparison, Product Video, Sticky Add To Cart, Color Comparison",
           "hot_label_color": "#ffffff",

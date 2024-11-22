@@ -934,6 +934,7 @@
             }
             .image-with-content.image-content-block-{{section.id}} .banner-content {
                 max-width: 100%;
+                padding-top: {{ block.settings.mg_top_content_mobile | append: 'px' }};
                 padding-bottom: {{ block.settings.mg_bottom_content_mobile | append: 'px' }};
                 padding-left: {{ block.settings.mg_left_right_content_mobile | append: 'px' }};
                 padding-right: {{ block.settings.mg_left_right_content_mobile | append: 'px' }};
@@ -2443,6 +2444,16 @@
                       "max": 50,
                       "step": 1,
                       "default": 0
+                  },
+                  {
+                    "type": "range",
+                    "id": "mg_top_content_mobile",
+                    "label": "Padding Top",
+                    "min": 0,
+                    "max": 100,
+                    "step": 1,
+                    "unit": "t:sections.layout.mg_desktop.unit",
+                    "default": 0
                   },
                   {
                       "type": "range",

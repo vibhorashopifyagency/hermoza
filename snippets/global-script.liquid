@@ -4,10 +4,6 @@
 {{ 'lazyload.min.js' | asset_url | script_tag }}
 {{ 'animation-2.js' | asset_url | script_tag }} {% endcomment %}
 
-<script src="{{ 'animation.js' | asset_url }}" defer="defer"></script>
-{{ 'global.js' | asset_url | script_tag }}
-<script src="{{ 'animation-2.js' | asset_url }}" defer="defer"></script>
-
 
 {%- if settings.show_quick_search -%}
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
@@ -50,10 +46,10 @@
 %}
 
 <script>
-    window.lazySizesConfig = window.lazySizesConfig || {};
-    lazySizesConfig.loadMode = 1;
-    window.lazySizesConfig.init = false;
-    lazySizes.init();
+    // window.lazySizesConfig = window.lazySizesConfig || {};
+    // lazySizesConfig.loadMode = 1;
+    // window.lazySizesConfig.init = false;
+    // lazySizes.init();
 
     window.rtl_slick = {{ enable_iso_rtl }};
     window.mobile_menu = '{{ settings.mobile_menu }}';
@@ -269,12 +265,12 @@
     window.announcementClosed = cookieAnnouncemenClosed === 'closed'
 
 
-    $(window).on("load", function() {
-      setTimeout(function() {
-        $('body').css("opacity", "1");
-      }, 200);
-      header_height_get();
-    });
+    // $(window).on("load", function() {
+    //   setTimeout(function() {
+    //     $('body').css("opacity", "1");
+    //   }, 200);
+    //   header_height_get();
+    // });
 
     
     
