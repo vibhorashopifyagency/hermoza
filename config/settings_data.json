@@ -67,7 +67,7 @@
     "button_top_bottom_padding": 12,
     "button_left_right_padding": 30,
     "button_radius": 12,
-    "enable_lazyload": true,
+    "enable_lazyload": false,
     "swatch_type": "color",
     "type_arrow_border_width": 0,
     "type_arrow_width": 35,
@@ -1045,31 +1045,6 @@
       },
       "header-03": {
         "type": "header-03",
-        "blocks": {
-          "megamenu_style_1_994PJh": {
-            "type": "megamenu_style_1",
-            "settings": {
-              "layout_block": "full",
-              "header_custom_width_size": 1200,
-              "item": "Men",
-              "column": 2,
-              "right_part_show": false,
-              "right_part_width": "50%",
-              "show_banner_1": false,
-              "banner_title": "New Arrival",
-              "banner_title_color": "#ffffff",
-              "banner_title_title_size": 26,
-              "banner_url_1": "",
-              "show_banner_2": false,
-              "banner_url_2": "",
-              "show_banner_3": false,
-              "banner_url_3": ""
-            }
-          }
-        },
-        "block_order": [
-          "megamenu_style_1_994PJh"
-        ],
         "settings": {
           "bg_color_header": "#f1f4e0",
           "border_bottom": false,
@@ -1131,7 +1106,7 @@
           "sale_label_color": "#ffffff",
           "sale_label_bg": "#d12442",
           "sale_label_bg_gradient": "",
-          "hot_label_1": "Men",
+          "hot_label_1": "",
           "hot_label_2": "",
           "hot_label_3": "Multiple Headers, Multiple Footers, GDPR, Color Comparison, Product Video, Sticky Add To Cart, Color Comparison",
           "hot_label_color": "#ffffff",
@@ -1468,6 +1443,11 @@
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
+        "settings": {}
+      },
+      "11068332061543699368": {
+        "type": "shopify:\/\/apps\/booster-page-speed-optimizer\/blocks\/app-embed\/d920faf3-7c60-423a-9636-22618b5561b5",
+        "disabled": false,
         "settings": {}
       }
     }
