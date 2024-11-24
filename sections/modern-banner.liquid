@@ -32,7 +32,7 @@
               {%- if section.settings.image != blank -%}
                 {%- assign preview_img = section.settings.image -%}
                   <div class="image image-adapt adaptive_height" title="{{ preview_img.alt | default: shop.name | escape }}">
-                      <img {% render 'lazyload', preview_img: preview_img %} loading="lazy" />
+                      <img {% render 'lazyload', preview_img: preview_img %} />
                       {% if settings.enable_lazyload %}<span class="data-lazy-loading"></span>{% endif %}
                   </div>
               {%- else -%}
