@@ -158,6 +158,8 @@ header.header {
     position: relative;
 }
 .menu-listing > li .header__submenu li a {
+    max-width: 100%;
+    width: calc(100% - 25%);
     font-family: var(--font-nav-family);
     font-size: {{ section.settings.font_size_menu_dropdown | append: 'px' }};
     line-height: 1.2;
@@ -202,7 +204,12 @@ header.header {
     visibility: visible;
     animation: animateMenuOpen 350ms ease;
     display: block;
-    transform: translateY(0);
+    transform: translateX(0);
+}
+@media (max-width: 1024px) {
+    .menu-listing > li .header__submenu .menu-lv-item:hover .header__submenu {
+        transform: translateX(-260px);
+    }
 }
 .menu-listing > li.has-megamenu {
     position: unset;
@@ -303,7 +310,7 @@ header.header {
     height: unset !important;
 }
 .menu-lv-item.menu-lv-1 .icon-dropdown {
-    display: none;
+    display: block;
 }
 .menu-dropdown__wrapper {
     display: flex;

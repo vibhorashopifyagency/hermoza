@@ -1,27 +1,27 @@
 <li class="menu-item menu-lv-item menu-lv-1 text-left no-megamenu {% if link.links != blank %}dropdown {% endif %} {% if sale_item_lv1 contains title %} menu-sale{% endif %}">
     {%- if link.links != blank -%}
-          <a class="menu-lv-1__action  header__menu-item list-menu__item link focus-inset menu_mobile_link"{% if link.url == blank %} role="link" aria-disabled="true"{% else %} href="{{ link.url }}"{% endif %}>
-              <span class="text{%- if link.child_active %} header__active-menu-item{% endif %}">
-                  {{ link.title | escape }}
-              </span>
-              <span class="icon-dropdown" data-toggle-menu-mb="">
-                  {% render 'icon-caret-dropdown' %}
-              </span>
-              {%- if new_label_1 contains title -%}
-                  <span class="label new-label">
-                      {{ 'general.navigation.new_label' | t }}
-                  </span>
-              {%- elsif sale_label_1 contains title -%}
-                  <span class="label sale-label">
-                      {{ 'general.navigation.sale_label' | t }}
-                  </span>
-              {%- elsif hot_label_1 contains title -%}
-                  <span class="label hot-label">
-                      {{ 'general.navigation.hot_label' | t }}
-                  </span>
-              {%- endif -%}
-          </a>
-          <div class="mobile-menu-toggle"></div>
+        <a class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link"{% if link.url == blank %} role="link" aria-disabled="true"{% else %} href="{{ link.url }}"{% endif %}>
+            <span class="text{%- if link.child_active %} header__active-menu-item{% endif %}">
+                {{ link.title | escape }}
+            </span>
+            <span class="icon-dropdown" data-toggle-menu-mb="">
+                {% render 'icon-caret-dropdown' %}
+            </span>
+            {%- if new_label_1 contains title -%}
+                <span class="label new-label">
+                    {{ 'general.navigation.new_label' | t }}
+                </span>
+            {%- elsif sale_label_1 contains title -%}
+                <span class="label sale-label">
+                    {{ 'general.navigation.sale_label' | t }}
+                </span>
+            {%- elsif hot_label_1 contains title -%}
+                <span class="label hot-label">
+                    {{ 'general.navigation.hot_label' | t }}
+                </span>
+            {%- endif -%}
+            <div class="mobile-menu-toggle"></div>
+        </a>
         <ul class="header__submenu list-menu list-menu--disclosure list-menu--disclosure-1 caption-large motion-reduce header-inner-menu" role="list" >
             {%- for childlink in link.links -%}
                 {% assign childtitle = childlink.title | escape | downcase | handle %}
@@ -47,14 +47,12 @@
                           </a>
                           <div class="mobile-menu-toggle-2"></div>
                     {%- else -%}
-                        <div class="site-nav-list-dropdown">
+                        <div class="site-nav-list-dropdown zzz">
                             <a class="menu-lv-2__action header__menu-item link link--text list-menu__item focus-inset caption-large menu_mobile_link_2 has-icon"{% if childlink.url == blank %} role="link" aria-disabled="true"{% else %} href="{{ childlink.url }}"{% endif %}>
                                 <span class="text{% if childlink.current %} list-menu__item--active{% endif %}">
                                     {{ childlink.title | escape }}
                                 </span>
-                                <span class="icon-dropdown" data-toggle-menu-mb="">
-                                    {% render 'icon-caret-right' %}
-                                </span>
+                                
                                 {%- if new_label_2 contains childtitle -%}
                                     <span class="label new-label">
                                         {{ 'general.navigation.new_label' | t }}
@@ -69,7 +67,11 @@
                                     </span>
                                 {%- endif -%}
                             </a>
-                          <div class="mobile-menu-toggle-2"></div>
+                          <div class="mobile-menu-toggle-2">
+                            <span class="icon-dropdown" data-toggle-menu-mb="">
+                                {% render 'icon-caret-right' %}
+                            </span>
+                          </div>
                             <ul class="header__submenu list-menu--disclosure list-menu--disclosure-2 list-menu motion-reduce">
                                 {%- for grandchildlink in childlink.links -%}
                                     {% assign grandchildtitle = grandchildlink.title | escape | downcase | handle %}
