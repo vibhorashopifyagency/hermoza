@@ -22,7 +22,7 @@
 {%- endif -%}
 
 
-<style>
+{% style %}
   /* body {opacity: 0;} */
   /*----- Button Style -----*/
   .button, .spr-summary-actions-newreview {
@@ -332,6 +332,6 @@
       border-color: var(--button-border-hover-color);
     }
   {% endif %}
-</style>
+{% endstyle %}
 
 {{ 'component-product-listing.css' | asset_url | stylesheet_tag }}

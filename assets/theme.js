@@ -72,7 +72,6 @@
             this.headerdropdownLanguage();
             this.headerSidebarSearch();
             this.initCountdown();
-            this.initVideoPopup();
             this.initDynamicBrowserTabTitle();
             this.initWarningPopup();
 
@@ -896,52 +895,6 @@
             }
 
             new IntersectionObserver(handleIntersection.bind($this), ({}, config)).observe($this);
-        },
-
-        initVideoPopup: function (){
-            if ($(".video-open-popup, .video-button").length) {
-            } else {return}
-            $('.video-open-popup .video-button, .video-button button').off('click').on('click',function(){
-                let video_type = $(this).attr('data-type'),
-                    video_src = $(this).attr('data-src'),
-                    aspect_ratio = $(this).attr('aspect_ratio'),
-                    modal = $('[data-popup-video]');
-
-                const $content = `<div class="fluid-width-video-wrapper" style="padding-top: ${aspect_ratio}">
-                                    ${video_type == 'youtube' ? 
-                                        `<iframe
-                                            id="player"
-                                            type="text/html"
-                                            width="100%"
-                                            frameborder="0"
-                                            webkitAllowFullScreen
-                                            mozallowfullscreen
-                                            allowFullScreen
-                                            src="https://www.youtube.com/embed/${video_src}?autoplay=1&mute=1">
-                                        </iframe>`
-                                        :
-                                        `<iframe 
-                                            src="https://player.vimeo.com/video/${video_src}?autoplay=1&mute=1" 
-                                            class="js-vimeo" 
-                                            allow="autoplay; 
-                                            encrypted-media" 
-                                            webkitallowfullscreen 
-                                            mozallowfullscreen 
-                                            allowfullscreen">
-                                        </iframe>`
-                                    }
-                                </div>`;
-                modal.find('.scoder-popup-content').html($content);
-                $body.addClass('video-show');
-            });
-
-            $('[data-popup-video], [data-popup-video] .scoder-popup-close, .background-overlay').on('click', function (e) {
-                let modalContent = $('[data-popup-video] .scoder-popup-content');
-                if (!modalContent.is(e.target) && !modalContent.has(e.target).length) {
-                    $body.removeClass('video-show');
-                    $('[data-popup-video] iframe').remove();
-                };
-            });
         },
 
         initGlobalCheckbox: function() {
@@ -3067,7 +3020,6 @@
             scoder.productCountdown($scope);
             scoder.productSizeChart($scope);
             scoder.productCustomCursor($scope);
-            scoder.productVideoGallery($scope);
             scoder.initVariantImageGroup($scope, window.variant_image_group);
         },
 
@@ -3766,73 +3718,6 @@
                     }
                 }
             });
-        },
-
-        productVideoGallery: function($scope) {
-            const videoThumbnail = $scope.find('[data-video-thumbnail]'),
-                videoThumbnailLen = videoThumbnail.length,
-                productVideoLen = $('.productView-video').length;
-
-            if (videoThumbnailLen) {
-                const $imageWrapper = $scope.find('.productView-image-wrapper'),
-                    videoModal = $('[data-popup-video]'),
-                    sliderNav = $scope.find('.productView-nav');
-                let offsetTop = $imageWrapper.offset().top + $imageWrapper.outerHeight();
-
-                if (productVideoLen) {
-                    $body.addClass('has-product-video');
-                }
-                
-                $win.on('scroll', (event) => {
-                    const $targetCur = $(event.currentTarget),
-                        thisVideo = $scope.find('.slick-current .productView-video'),
-                        videoType = thisVideo.data('type'),
-                        videoUrl = thisVideo.data('video-url');
-
-                    if (videoUrl != undefined) {
-                        if ($targetCur.scrollTop() > offsetTop) {
-                            if (!videoModal.is('.is-show')) {
-                                const player = sliderNav.find('.slick-slide.slick-active').data('youtube-player'),
-                                    dataTime = parseInt(player.getCurrentTime()),
-                                    videoContent = `<div class="fluid-width-video-wrapper" style="padding-top: 56.24999999999999%">
-                                                    ${videoType == 'youtube' ? 
-                                                        `<iframe
-                                                            id="player"
-                                                            type="text/html"
-                                                            width="100%"
-                                                            frameborder="0"
-                                                            webkitAllowFullScreen
-                                                            mozallowfullscreen
-                                                            allowFullScreen
-                                                            src="https://www.youtube.com/embed/${videoUrl}?autoplay=1&mute=1&start=${dataTime}">
-                                                        </iframe>`
-                                                        :
-                                                        `<iframe 
-                                                            src="https://player.vimeo.com/video/${videoUrl}?autoplay=1&mute=1" 
-                                                            class="js-vimeo" 
-                                                            allow="autoplay; 
-                                                            encrypted-media" 
-                                                            webkitallowfullscreen 
-                                                            mozallowfullscreen 
-                                                            allowfullscreen">
-                                                        </iframe>`
-                                                    }
-                                                </div>`;
-                                videoModal.addClass('is-show');
-                                videoModal.find('.scoder-popup-content').html(videoContent);
-                                $body.addClass('video-show product-video-show');
-                                player.pauseVideo();
-                            }
-                        } else {
-                            const player = sliderNav.find('.slick-slide.slick-active').data('youtube-player');
-                            videoModal.removeClass('is-show');
-                            videoModal.find('.scoder-popup-content').empty();
-                            $body.removeClass('video-show product-video-show');
-                            player.playVideo();
-                        }
-                    }
-                });
-            }
         },
 
         initVariantImageGroup: function($scope, enable = false) {

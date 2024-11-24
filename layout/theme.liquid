@@ -24,7 +24,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="theme-color" content="">
-        <link rel="canonical" href="{{ canonical_url }}">
         <link rel="canonical" href="{{ canonical_url }}" canonical-shop-url="{{ shop.url }}/">
         {%- if settings.favicon != blank -%}
             <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -73,7 +72,10 @@
             endif
         -%}
 
-        {{ 'vendor.js' | asset_url | script_tag }}
+        {% comment %} {{ 'vendor.js' | asset_url | script_tag }} {% endcomment %}
+        {{ 'vendor.min.js' | asset_url | script_tag }}
+        <script src="{{ 'theme.min.js' | asset_url }}" async></script>
+        {% comment %} <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script> {% endcomment %}
         <script src="{{ 'animation.js' | asset_url }}" async></script>
         {{ 'global.js' | asset_url | script_tag }}
         <script src="{{ 'animation-2.js' | asset_url }}" async></script>
@@ -87,10 +89,10 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) --> {% endcomment %}
       
-      {% if settings.cursor_effect != blank %}
+      {% comment %} {% if settings.cursor_effect != blank %}
         <div class="cursor"></div>
         <div class="cursor2"></div>
-      {% endif %}
+      {% endif %} {% endcomment %}
       <div id="smooth-wrapper">
         <div id="smooth-content" class="body-content-wrapper smooth-content-scroll">
             <div style="width: 100%">
@@ -115,10 +117,6 @@
           </div>
         </div>
         {% render 'scoder-popup' %}
-
-        {%- if settings.use_custom_js -%}
-            {{ 'custom.js' | asset_url | script_tag }}
-        {%- endif -%}
 
         <div class="background-overlay">
             {% if settings.show_effect_close %}

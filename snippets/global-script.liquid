@@ -6,7 +6,7 @@
 
 
 {%- if settings.show_quick_search -%}
-    <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'predictive-search.js' | asset_url }}" async></script>
 {%- endif -%}
 
 {% liquid
